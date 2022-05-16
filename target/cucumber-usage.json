@@ -1,0 +1,38 @@
+[
+  {
+    "source": "user enter the user name and click next",
+    "steps": [
+      {
+        "name": "user enter the user name and click next",
+        "aggregatedDurations": {
+          "average": 0.8672827,
+          "median": 0.8672827
+        },
+        "durations": [
+          {
+            "duration": 0.8672827,
+            "location": "src/main/resources/features/gmail.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user launching the gmail application$",
+    "steps": [
+      {
+        "name": "user launching the gmail application",
+        "aggregatedDurations": {
+          "average": 4.7441917,
+          "median": 4.7441917
+        },
+        "durations": [
+          {
+            "duration": 4.7441917,
+            "location": "src/main/resources/features/gmail.feature:18"
+          }
+        ]
+      }
+    ]
+  }
+]

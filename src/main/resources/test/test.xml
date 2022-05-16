@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+    <application id="AUTOMATIONURL">
+        <url>https://www.gmail.com</url>
+        <!--<url>https://www.globalsqa.com/angularJs-protractor/BankingProject</url> -->
+        <!--<url>https://demoqa.com/progress-bar</url> -->
+    </application>
+</environment>
