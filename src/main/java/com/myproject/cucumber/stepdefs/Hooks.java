@@ -29,7 +29,8 @@ public class Hooks {
         CucumberLogUtils.scenarioResult = true;
         System.out.println(LocalConfUtils.getProperty("localchromeDriverLocation"));
 //        System.setProperty("webdriver.chrome.driver", driverPath);
-        System.setProperty("webdriver.chrome.driver", LocalConfUtils.getProperty("localchromeDriverLocation"));
+//        System.setProperty("webdriver.chrome.driver", LocalConfUtils.getProperty("localchromeDriverLocation"));
+        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/src/main/resources/chromedriver.exe");
         if (LocalConfUtils.getProperty("seleniumHub").contentEquals("saucelabs")) {
             driver = SauceWebDriver.getWebDriver();
         } else {
